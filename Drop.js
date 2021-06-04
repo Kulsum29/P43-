@@ -6,7 +6,7 @@ class Drop{
             friction: 0.05
         }
         this.x=x;
-        this.redColor=random(0,200);
+        this.redColor=random(0,255);
         this.blueColor=random(150,255);
         this.rain = Bodies.circle(x,y,5,options);
         World.add(world,this.rain)
